@@ -3,7 +3,7 @@ import React from "react";
 import "./Whishlist.css";
 
 function Whishlist(props) {
-  const { alerts } = props;
+  const {alerts} = props;
   return (
     <>
       <div className="wish-list-main">

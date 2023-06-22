@@ -4,7 +4,7 @@ import "./TopOffers.css";
 import leftAngle from "../assets/leftAngle.svg";
 
 function TopOffers(props) {
-  const { offersList } = props;
+  const {offersList} = props;
   const imageCard = useRef();
   const rightAngle = useRef();
   const leftArrow = useRef();

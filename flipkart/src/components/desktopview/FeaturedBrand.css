@@ -23,8 +23,7 @@
     font-family: font1;
     font-size: 20px;
     color: #212121;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding: 18px 0 18px 0;    
 }
 
 .deal-angle-feat {
