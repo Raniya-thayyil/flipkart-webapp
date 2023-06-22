@@ -1,0 +1,62 @@
+.features-list {
+    display: flex;
+    gap: 12px;
+}
+
+.features-list img {
+    height: 215px;
+    width: 400px;
+}
+
+.features-main {
+    background-color: #fff;
+    margin: 12px 0px 0px 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    padding-inline: 20px;
+    padding-bottom: 18px;
+}
+
+.features-main h2 {
+    text-align: left;
+    font-family: font1;
+    font-size: 20px;
+    color: #212121;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.deal-angle-feat {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 114px;
+    transform: rotate(180deg);
+}
+
+.deal-angle-feat img {
+    height: 56px;
+    width: 15px;
+}
+
+.angle-left-feat {
+    background-color: #fff;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 114px;
+    padding: 20px;
+}
+
+.angle-left-feat img {
+    height: 56px;
+    width: 15px;
+}

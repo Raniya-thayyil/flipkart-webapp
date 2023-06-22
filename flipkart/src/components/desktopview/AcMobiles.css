@@ -1,0 +1,12 @@
+.acMobile-list-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-inline: 12px;
+    margin-top: 12px;
+}
+
+.acMobile-list img {
+    height: 100%;
+    width:100%;
+}
