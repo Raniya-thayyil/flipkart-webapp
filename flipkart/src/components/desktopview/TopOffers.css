@@ -1,0 +1,131 @@
+.top-offer-textlink {   
+    background: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    padding: 28px 10px 124px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 230px;
+}
+.text-div{
+    padding-top: 132px;
+    background-color: white;
+}
+
+.top-offers-main {
+    background: #fff;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-inline: auto;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+}
+
+.topoffers-list {
+    display: flex;
+    width: 542px;
+}
+
+.offer-ad img {
+    width: 230px;
+}
+
+.offer-ad {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+.top-offer-textlink h2 {
+    color: #212121;
+    font-size: 30px;
+    font-family: font2;
+    white-space: nowrap;
+}
+
+.offers-main {
+    padding: 25px 15px;
+}
+
+span.cap {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #212121;
+    font-family: font2;
+}
+
+.texts-offer {
+    display: block;
+    padding-top: 20px;
+}
+
+span.offername {
+    display: block;
+    color: #388e3c;
+    font-size: 16px;
+    padding: 8px 0px 0px;
+    font-family: font1;
+}
+
+span.pricedetail {
+    display: block;
+    font-size: 14px;
+    padding: 7px 0px 0px;
+    color: #878787;
+    margin-top: -16px;
+}
+
+.viewall {
+    margin-top: 24px;
+    margin-bottom: 9px;
+}
+
+.viewall a {
+    background-color: #2874f0;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.angle {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    z-index: 3;
+    right: 225px;
+    bottom: 129px;
+    transform: rotate(180deg);
+}
+
+.angle img {
+    height: 56px;
+    width: 15px;
+}
+
+.left-arrow {
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 241px;
+    bottom: 129px;
+    background-color: #fff;
+}
+
+.left-arrow img {
+    height: 56px;
+    width: 15px;
+}
