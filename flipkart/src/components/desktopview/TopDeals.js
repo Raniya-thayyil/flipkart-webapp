@@ -4,7 +4,7 @@ import leftAngle from "../assets/leftAngle.svg";
 import "./TopDeals.css";
 
 function TopDeals(props) {
-  const { dealsList } = props;
+  const {dealsList} = props;
 
   const imgCard = useRef();
   const rightArrow = useRef();

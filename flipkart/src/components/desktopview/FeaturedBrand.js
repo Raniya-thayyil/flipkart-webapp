@@ -5,7 +5,7 @@ import leftAngle from "../assets/leftAngle.svg";
 import "./FeaturedBrand.css";
 
 function FeaturedBrand(props) {
-  const { featuresList } = props;
+  const {featuresList} = props;
 
   const imgCard = useRef();
   const rightArrow = useRef();

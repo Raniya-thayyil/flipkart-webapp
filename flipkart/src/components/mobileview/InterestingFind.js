@@ -2,7 +2,7 @@ import React from "react";
 import "./InterestingFind.css";
 
 function InterestingFind(props) {
-  const { findsList } = props;
+  const {findsList} = props;
 
   return (
     <>

@@ -4,7 +4,7 @@ import "./Carousel.css";
 
 function Sponsored(props) {
   let [index, setIndex] = useState(0);
-  const { sponsoredList } = props;
+  const {sponsoredList} = props;
 
   const callIndex = () => {
     setIndex(index === sponsoredList.length - 1 ? 0 : index + 1);

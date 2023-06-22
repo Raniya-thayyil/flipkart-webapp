@@ -2,7 +2,7 @@ import React from "react";
 import "./AcMobiles.css";
 
 function Advertisement(props) {
-  const { adsList } = props;
+  const {adsList} = props;
 
   return (
     <>

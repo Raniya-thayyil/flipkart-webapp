@@ -4,7 +4,7 @@ import leftAngle from "../assets/leftAngle.svg";
 import "./CarouselDesktop.css";
 
 function CarouselDesktop(props) {
-  const { carouselList } = props;
+  const {carouselList} = props;
 
   let [index, setIndex] = useState(0);
 
@@ -55,7 +55,7 @@ function CarouselDesktop(props) {
         </div>
       </div>
       <div className="hdfc">
-        <img src="https://rukminim1.flixcart.com/fk-p-flap/2000/2000/image/8d8f584b6e0ddb5f.jpg?q=50" />
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/2000/2000/image/8d8f584b6e0ddb5f.jpg?q=50" alt="hdfc"/>
       </div>
     </>
   );

@@ -1,16 +1,14 @@
 import React from "react";
-import './ElectronicList.css'
+import "./ElectronicList.css";
 
 function ElectronicList(props) {
-  const {
-    electronicsList
-  } = props
+  const {electronicsList} = props;
 
   return (
     <>
-      <div className="electronic-list">        
+      <div className="electronic-list">
         {electronicsList.map((item, idx) => {
-          return <img src={item} alt="electronic images"/>;
+          return <img src={item} alt="electronic images" />;
         })}
       </div>
     </>
